@@ -7,36 +7,23 @@
 //     var button = $(this).val();
 //     alert(button);
 // });
+var display = document.getElementById("display");
+cal = v => {
+    // console.log(v);
+    display.value += v;
+    console.log(display.value);
+}
 
-display = document.getElementById(display);
 
-function cls() {
+AC = () => {
     display.value = "";
 }
 
-
-function cal(clicked_id) {
-    console.log(clicked_id);
-
-
-}
-
-var val = document.getElementById("inp");
-
-function AT_add(v) {
-    val.value += v;
+equal = () => {
+    display.value = eval(display.value);
 }
 
 
-function cls() {
-    val.value = "";
-}
-
-function exe() {
-    val.value = eval(val.value);
-}
-
-
-function cancel() {
-    val.value = val.value.substr(0, val.value.length - 1);
+cancel = () => {
+    display.value = display.value.substr(0, display.value.length - 1);
 }

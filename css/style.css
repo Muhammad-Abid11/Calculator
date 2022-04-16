@@ -1,0 +1,35 @@
+
+
+
+h1{
+    color: royalblue;
+}
+
+#main{
+    text-align: center;
+    /* width: 100%; */
+}
+#main_2{
+    margin:10em auto ;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    max-width: 375px;
+}
+.btn{
+    display: inline-block;
+    /* box-sizing: 10px; */
+    width: 3.5em;
+}
+.zero{
+    width: 7.3em;
+}
+#display{
+    text-align: center;
+    font-size: 20px;
+}
+p{
+    color: royalblue;
+    justify-content: center;
+    font-weight: bold;
+}
