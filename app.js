@@ -1,12 +1,3 @@
-// cal = (a) => {
-//     console.log("this working")
-//     console.log(a)
-// }
-
-// $("button").click(function () {
-//     var button = $(this).val();
-//     alert(button);
-// });
 var display = document.getElementById("display");
 cal = v => {
     // console.log(v);
@@ -26,4 +17,5 @@ equal = () => {
 
 cancel = () => {
     display.value = display.value.substr(0, display.value.length - 1);
+    // display.value = display.value.slice(0, display.value.length - 1);
 }
